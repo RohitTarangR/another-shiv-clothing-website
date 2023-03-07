@@ -1,25 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv | Clothing </title>
 
 
-        <script>
-            // script for image change on click
-        </script>
+
+    <!-- fontawesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <!-- css styling link -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
 
 
-        <script src="script.js"></script>
-    </body>
+    <section id="header">
+        <a href="#"><img class="logo1" src="img/logo1.png" class="logo" width="100px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <div id="bar" class="fas fa-outdent"></div>
+        </div>
+
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./img/products/f1.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+
+                <div class="small-img-col">
+                    <img src="./img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="./img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home/T-shirt</h6>
+            <h4>Men's Fashion T-shirt</h4>
+            <h2> &#8377; 349.00</h2>
+
+            <select name="size" id="size">
+
+                <option value="s">Select Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">large</option>
+                <option value="xl">XL</option>
+                <option value="xxl">XXL</option>
+            </select>
+
+            <input type="number" name="numofcontenty" id="numofcon" value="1">
+
+            <button class="normal">Add To cart</button>
+
+            <h4>Product Details</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque quos architecto minima, sunt non doloribus maiores ad? Possimus iste animi ratione consequatur sit ullam, odio tenetur dolorum adipisci inventore, et illum sed est, beatae corrupti expedita dolore harum laudantium incidunt aperiam temporibus amet aut? Doloremque, modi quod. Aspernatur, dolorum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe officia eligendi quod dolore odit error iusto ipsam odio, blanditiis tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, cum!
+            </p>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collections New Modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="./img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>&#8377; 399</h4>
+                    </div>
+                    <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+        
+                <div class="pro">
+                    <img src="./img/products/f2.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>&#8377; 399</h4>
+                    </div>
+                    <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+        
+                <div class="pro">
+                    <img src="./img/products/f3.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>&#8377; 399</h4>
+                    </div>
+                    <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+        
+                <div class="pro">
+                    <img src="./img/products/f4.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astronaut T-shirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h4>&#8377; 399</h4>
+                    </div>
+                    <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+        
+            </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get e-mail updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="email" name="email-add" id="email" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="./img/logo.png" alt="">
+            <h4>Contact us</h4>
+            <p><strong>Address : </strong> FF-1/FF-1A , Kuber palms, Mahavir turning, Ankleshwar, Gujarat 393001</p>
+            <p><strong>Phone : </strong> +01 2222 365/+91 12345 67890</p>
+            <p><strong>Hours : </strong> 10:00 AM - 10:00 PM, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/alkesh.gohil.353"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_shivmobile_and_mens_wear_/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <a
+                    href="https://www.apple.com/in/?afid=p238%7CsdUuvv563-dc_mtid_187079nc38483_pcrid_649848520513_pgrid_109516736379_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-"><img
+                        src="./img/pay/app.jpg" alt="appstore"></a>
+                <a
+                    href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700065205026415_creativeid_535350509927_device_c&gclsrc=ds&pli=1"><img
+                        src="./img/pay/play.jpg" alt="playstore"></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+
+
+
+        <div class="copyright">
+            <hr><br><br>
+            <p>&copy; 2023 | Website Handle by Rohit Tarang</p>
+        </div>
+
+    </footer>
+
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
 
 </html>

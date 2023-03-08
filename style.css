@@ -23,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
+/************************************************************* Global Styles ***********************************************************************************/
 
 h1 {
   font-size: 50px;
@@ -91,7 +91,7 @@ body {
 }
 
 
-  /* header css  */
+  /**************************************************************** header css  *******************************************************************/
 
 #header {
   display: flex;
@@ -259,7 +259,7 @@ body {
 }
 
 
-/* featured product  */
+/******************************************************************** featured product  ***************************************************************/
 
   #product1{
     text-align: center;
@@ -473,6 +473,13 @@ body {
   }
 
 
+
+  /*************************************************************** Newsletter Css  *********************************************************************/
+
+
+
+
+
   #newsletter{
     display: flex;
     justify-content: space-between;
@@ -531,6 +538,12 @@ body {
     background-color: var(--third);
     color: var(--white);
   }
+
+
+
+
+
+  /***************************************** footer css ******************************************* */
 
   footer{
     display: flex;
@@ -595,7 +608,9 @@ body {
   }
 
 
-  /* **********shop page********** */
+  /* ****************************************************** Shop page ******************************************************** */
+  /* ****************************************************** Shop page ******************************************************** */
+  /* ****************************************************** Shop page ******************************************************** */
 
   
   
@@ -629,6 +644,7 @@ body {
     width: 20px;
     font-weight: 600;
     color: var(--white);
+    transition: all 700ms ease;
   }
 
   #pagination a i{
@@ -636,7 +652,11 @@ body {
     font-weight: 600;
   }
 
-  /* Single Product  */
+  #pagination a:hover{
+    background-color: var(--third);
+  }
+
+  /************************************************* Single Product  ***************************************************/
 
   #prodetails{
     display: flex;
@@ -664,10 +684,7 @@ body {
     padding-top: 30px;
   }
 
-   /* #prodetails .single-pro-details h6{
-    padding: 40px 0 20px 0;
-  } */
-  
+
   #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
    }
@@ -710,6 +727,78 @@ body {
 
 
 
+/******************************************************* Blog Page CSS *******************************************************************/
+/******************************************************* Blog Page CSS *******************************************************************/
+/******************************************************* Blog Page CSS *******************************************************************/
+
+
+  #page-header.blog-header{
+     background-image: url("img/banner/b19.jpg");
+  }
+
+  #blog{
+    padding: 150px 150px 0 150px;
+  }
+
+  #blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+  }
+
+    #blog .blog-img{
+      width: 50%;
+      margin-right: -81px;
+    }
+
+    #blog img{
+    width: 72%;
+    height: 397px;
+    object-fit: cover;
+    }
+
+    #blog .blog-details{
+      width: 50%;
+    }
+
+    #blog .blog-details a{
+      color: var(--black);
+      font-size: 13px;
+      font-weight: 700;
+      position: relative;
+      transition: all 400ms ease;
+    }
+
+    #blog .blog-details a::after{
+      content: "";
+      width: 50px;
+      height: 2px;
+      background-color: var(--black);
+      position: absolute;
+      top: 4px;
+      right: -60px;
+      transition: all 400ms ease;
+    }
+
+    #blog .blog-details a:hover{
+      color: var(--secondary);
+    }
+
+    #blog .blog-details a:hover::after{
+      background-color: var(--secondary);
+    }
+
+  #blog .blog-box h1 {
+    color: #c9cbce;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    font-size: 70px;
+    font-weight: 700;
+    z-index: -9;
+  }
 
 
 
@@ -741,7 +830,58 @@ body {
 
 
 
-  /* ******* Media query start ******* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* *************************** Media query start *********************** */
+  /* *************************** Media query start *********************** */
+  /* *************************** Media query start *********************** */
 
 @media (max-width:799px){
 
@@ -852,9 +992,7 @@ body {
     padding: 0 20px;
   }
 
-  /* #banner3 .banner-box{
-    width: 28%;
-  } */
+
 
 
     #banner3{
@@ -882,6 +1020,40 @@ body {
   #prodetails .single-pro-details {
     width: 100%;
   }
+
+
+    #blog{
+    padding: 100px 20px 0 20px;
+    /* margin: 0 auto; */
+  }
+
+
+  #blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%; 
+    margin-right: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #blog .blog-details {
+    width: 100%;
+  }
+
+  #blog .blog-box h1 {
+    left: -4px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+
 
 
 
@@ -1028,6 +1200,41 @@ body {
   }
 
 
+  /* blog page  */
+
+  #blog{
+    padding: 100px 20px 0 20px;
+    /* margin: 0 auto; */
+  }
+
+
+  #blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%; 
+    margin-right: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #blog .blog-details {
+    width: 100%;
+  }
+
+  #blog .blog-box h1 {
+    left: 0px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+
+
 
 
 
@@ -1040,5 +1247,11 @@ body {
 
 }
 
+@media (max-width:900){
+  #blog {
+    padding: 149px -20px 0 150px;
+  }
+
+}
 
 

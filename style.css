@@ -292,7 +292,7 @@ body {
   
   
   #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
   }
 
 
@@ -559,7 +559,8 @@ body {
   }
 
   footer .logo{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: -60px;
   }
 
   footer h4{
@@ -576,6 +577,7 @@ body {
     font-size: 13px;
     color: var(--black);
     margin-bottom: 10px;
+    transition: all 400ms ease;
   }
 
   footer .follow{
@@ -583,9 +585,11 @@ body {
   }
 
   footer .icon i{
-    color: #465b52;
+    font-size: 20px;
+    color: var(--black);
     padding-right: 5px;
     cursor: pointer;
+    transition: all 400ms ease;
   }
 
   footer .install .row{
@@ -605,6 +609,7 @@ body {
   footer .icon i:hover,
   footer a:hover {
     color: var(--secondary);
+    font-weight: 700;
   }
 
   footer .copyright{
@@ -1271,6 +1276,12 @@ body {
     #product1 .pro{
       margin: 15px;
     }
+
+    footer .logo {
+    margin: 0 auto;
+    margin-top: -60px;
+    }
+
 
   #banner{
     height: 30vh;

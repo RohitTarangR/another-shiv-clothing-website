@@ -17,3 +17,13 @@ if(close)
         nav.classList.remove('active');
     })
 }
+
+
+
+// jquery for deleting cart item
+
+$(document).ready(function () {
+    $("a").click(function () {
+        $("#cartItem").remove();
+    });
+});

@@ -27,3 +27,17 @@ $(document).ready(function () {
         $("#cartItem").remove();
     });
 });
+
+
+// script for loader 
+
+// function loader(){
+//     document.querySelector('.loader').style.display = 'none';
+// }
+
+// function fadeOut(){
+//     setInterval(loader, 2);
+// }
+
+// window.onload = fadeOut;
+

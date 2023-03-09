@@ -25,6 +25,26 @@ html {
 
 /************************************************************* Global Styles ***********************************************************************************/
 
+/* loader css */
+
+.loader{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000000;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader img{
+  height: 4rem;
+}
+
+
 h1 {
   font-size: 50px;
   line-height: 64px;
